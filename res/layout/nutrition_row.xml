@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:background="@color/plain_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/plain_text" android:id="@id/column1" android:paddingLeft="10.0px" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/plain_text" android:gravity="right" android:id="@id/column2" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/plain_text" android:gravity="right" android:id="@id/column3" android:paddingRight="5.0px" />
+</TableRow>

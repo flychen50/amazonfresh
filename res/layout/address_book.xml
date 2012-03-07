@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_layout" />
+    <TextView android:textSize="@dimen/text_size_mediumish" android:textColor="@color/detail_header_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/please_select_address" />
+    <CheckBox android:textColor="@color/foreground1" android:id="@id/make_address_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:checked="false" android:text="@string/make_address_default" />
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/background2" android:divider="@color/background2" android:dividerHeight="0.0dip" />
+</LinearLayout>

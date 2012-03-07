@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/application"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/top_layout" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/order_summary_msg" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff669900" android:id="@id/slotInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/link" android:id="@id/slotInfoEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/slot_info_edit" android:onClick="goToSlotSelectionPage" />
+            <TextView android:id="@id/paymentInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/payment_info_caps" style="@style/SummaryPageReceipt" />
+            <Spinner android:gravity="left|center" android:id="@id/paymentInfoSelect" android:paddingLeft="6.0dip" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:prompt="@string/payment_info_select_prompt" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/link" android:id="@id/noPaymentMethodMsg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/no_payment_method_msg" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/receipt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/subtotal_caps" style="@style/SummaryPageReceipt" />
+                <TextView android:textColor="#ff000000" android:id="@id/orderSubTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/delivery_fee_caps" style="@style/SummaryPageReceipt" />
+                <TextView android:textColor="#ff000000" android:id="@id/orderDeliveryFee" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/tax_caps" style="@style/SummaryPageReceipt" />
+                <TextView android:textColor="#ff000000" android:id="@id/orderTax" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/tip_caps" style="@style/SummaryPageReceipt" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="#ff000000" android:id="@id/orderTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/link" android:id="@id/tipEditButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_tip" android:onClick="editTip" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/editTipBox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip">
+                        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/currency" />
+                        <EditText android:textSize="15.0sp" android:gravity="right|center" android:id="@id/tipTextbox" android:paddingLeft="4.0dip" android:layout_width="60.0dip" android:layout_height="wrap_content" android:inputType="phone" />
+                        <Button android:textSize="15.0sp" android:id="@id/tipSaveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" android:onClick="saveTip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/total_caps" style="@style/SummaryPageReceipt" />
+                <TextView android:textColor="#ff000000" android:id="@id/orderTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ffc81530" android:id="@id/slotWarn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/placeOrderButton" android:background="@drawable/green_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/btn_place_order" />
+    </LinearLayout>
+</ScrollView>

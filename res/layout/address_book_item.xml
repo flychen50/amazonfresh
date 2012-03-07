@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/itemLayout" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/item_border" android:background="@drawable/address_border" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_mediumish" android:textStyle="bold" android:textColor="@color/plain_text" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/text_size_mediumish" android:textColor="@color/plain_text" android:id="@id/address" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:textSize="@dimen/text_size_mediumish" android:textColor="@color/plain_text" android:id="@id/choose_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/choose_address" />
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/link" android:id="@id/missing_address" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_address_from_site" android:onClick="goToMobileSiteAddressBook" />
+    </LinearLayout>
+</LinearLayout>

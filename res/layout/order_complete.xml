@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.markupartist.android.widget.ActionBar android:id="@id/actionbar" style="@style/ActionBar" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="#ff666666" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/checkout_done" />
+        <View android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="25.0dip" />
+        <Button android:textSize="16.0sp" android:id="@id/rate_amazon_appstore" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/amazon_appstore" android:onClick="saveSettings" />
+        <Button android:textSize="16.0sp" android:id="@id/rate_android_market" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/android_market" android:onClick="saveSettings" />
+        <TextView android:textSize="16.0sp" android:id="@id/rate_later" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/remind_later" />
+        <TextView android:textSize="16.0sp" android:id="@id/dont_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/do_not_remind" />
+    </LinearLayout>
+</LinearLayout>

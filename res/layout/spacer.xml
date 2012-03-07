@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="#ff99cc33" android:padding="3.0sp" android:layout_width="fill_parent" android:layout_height="2.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

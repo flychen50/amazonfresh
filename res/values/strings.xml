@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="test">test</string>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">AmazonFresh</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="applicationId">79471700793667725575</string>
+    <string name="barcode_scan_msg_default_status">Center barcode in green box to scan.</string>
+    <string name="barcode_scan_decoded_barcode">Found Barcode</string>
+    <string name="barcode_searching_for_barcode">Searching for barcode...</string>
+    <string name="ok">OK</string>
+    <string name="app_label">AmazonFresh</string>
+    <string name="search_hint">Search AmazonFresh</string>
+    <string name="loading_next_delivery">Loading next deliveries</string>
+    <string name="no_deliveries">No open deliveries</string>
+    <string name="btn_past_purchases">Past Purchases</string>
+    <string name="btn_my_settings">Settings</string>
+    <string name="btn_delivery">Delivery Times</string>
+    <string name="btn_browse">Browse</string>
+    <string name="btn_barcode">Barcode Search</string>
+    <string name="btn_fruit">Best Produce</string>
+    <string name="btn_cart">View Cart</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_produce">Best Produce</string>
+    <string name="edit_order">edit order</string>
+    <string name="editing_order">"currently
+editing"</string>
+    <string name="btn_voice_search">Voice Search</string>
+    <string name="btn_quicklist">My Quicklist</string>
+    <string name="filter_by_aisle">Filter by Aisle</string>
+    <string name="filter_by_brand">Filter by Brand</string>
+    <string name="empty_cart">Your cart is empty. The AmazonFresh shopping cart lives to serve - start adding items!</string>
+    <string name="no_results_found_barcode">Try another item</string>
+    <string name="no_results_found">No results found</string>
+    <string name="product_features">Product Features</string>
+    <string name="product_details">Product Details</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="order_id">Order Id:</string>
+    <string name="order_status">Order Status:</string>
+    <string name="delivery_details">Delivery Details:</string>
+    <string name="unattended_dw">" "<b>Doorstep Delivery</b>"
+ "<small>"(You don't need to be present.)"</small>" "</string>
+    <string name="attended_dw">" "<b>Attended Delivery</b>"
+ "<small>You must be present.</small>" "</string>
+    <string name="warning">" "<b>WARNING</b>" "</string>
+    <string name="nutrition_facts">Nutrition Facts</string>
+    <string name="serving_size">Serving size:</string>
+    <string name="amount_per_serving">Amount Per Serving</string>
+    <string name="daily_value">Amount Per Serving and/or % Daily Value*</string>
+    <string name="daily_value_blurb">"*Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower based on your calorie needs.
+"</string>
+    <string name="login_header">Sign into your existing account.</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="login_footer">" New customer? "<a href="https://fresh.amazon.com/checkAddress">Please visit AmazonFresh to see if delivery is available in your area.</a>" "</string>
+    <string name="login_legal_notice">" By signing in, you agree to the Amazon "<a href="http://fresh.amazon.com/Category?cat=mobile_eula">End User License Agreement and Conditions of Use and Sale</a>". "</string>
+    <string name="signin">Sign In</string>
+    <string name="signing_in">Signing in...</string>
+    <string name="bad_login">Email address or password are invalid</string>
+    <string name="login_fail">Login Error</string>
+    <string name="new_customer_msg">"This app can only be used after placing an initial order on our website.
+
+To set up your account, please log in on the web with your Amazon.com login at
+http://fresh.amazon.com
+
+AmazonFresh is currently only available in the Seattle metropolitan area."</string>
+    <string name="abar_gateway">Home</string>
+    <string name="abar_order_complete">Thank You</string>
+    <string name="open_orders">Open Orders (%d)</string>
+    <string name="btn_change_delivery_time">Change Delivery Time</string>
+    <string name="btn_checkout">Checkout</string>
+    <string name="btn_place_order">Place Order</string>
+    <string name="btn_proceed_to_checkout">Proceed To Checkout</string>
+    <string name="abar_order_preview">Order Details</string>
+    <string name="order_summary_msg">Your order details:</string>
+    <string name="slot_info_edit"><u>edit delivery time &amp; address</u></string>
+    <string name="address_and_payment_edit"><u>edit delivery address &amp; payment method</u></string>
+    <string name="delivery_fee">Delivery Fee:</string>
+    <string name="tax">Tax:</string>
+    <string name="tip">Tip:</string>
+    <string name="subtotal">Subtotal:</string>
+    <string name="total">Total:</string>
+    <string name="no_payment_method_msg">We currently don’t have a valid payment method associated with this account or delivery address. <a href="https://fresh.amazon.com/m/splashDelivery?mobileApp=android">Please update your payment information on our mobile site or full site.</a></string>
+    <string name="payment_info_select_prompt">Select a payment method</string>
+    <string name="payment_info_caps">PAYMENT INFO:</string>
+    <string name="delivery_fee_caps">DELIVERY FEE:</string>
+    <string name="tax_caps">TAX:</string>
+    <string name="tip_caps">TIP:</string>
+    <string name="subtotal_caps">SUBTOTAL:</string>
+    <string name="total_caps">TOTAL:</string>
+    <string name="edit_tip"><u>edit tip</u></string>
+    <string name="save">save</string>
+    <string name="currency">$</string>
+    <string name="invalid_tip_message">Please enter a number.</string>
+    <string name="btn_add_to_cart">Add to Cart</string>
+    <string name="btn_edit_order">"Edit
+Order"</string>
+    <string name="updating_tip">updating tip...</string>
+    <string name="loading">Loading...</string>
+    <string name="no_more_results">No more results</string>
+    <string name="green_delivery">"Green Delivery Option: We're already in your neighborhood"</string>
+    <string name="settings_header">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="set_default_address">Change my delivery address</string>
+    <string name="set_default_payment">Change my default payment</string>
+    <string name="will_open_browser_note">(This will open your web browser.)</string>
+    <string name="feature_settings">Feature Settings</string>
+    <string name="notifications_opt">Enable order notifications on this device</string>
+    <string name="combine_pp_opt">Show my past purchases first in search results</string>
+    <string name="save_settings">Save Feature Settings</string>
+    <string name="save_settings_confirm_msg">Feature Settings Saved</string>
+    <string name="abar_cart">Cart</string>
+    <string name="checking_out">Checking Out...</string>
+    <string name="checkout_done">Your order has been placed. Thank you!</string>
+    <string name="checkout_fail">"We're sorry we could not checkout your order"</string>
+    <string name="checkout_fail_not_signed_in">Your order was not checked out. Please sign in to continue</string>
+    <string name="updating_cart">Updating Cart...</string>
+    <string name="undeliverable_order">This order cannot be delivered as is</string>
+    <string name="undeliverable_order_not_min">This does not meet the order minimum of $%d.</string>
+    <string name="undeliverable_order_no_payment">This order cannot be checked out without a payment method</string>
+    <string name="delivery_time">" "<b>Delivery Time (%s)</b>" "</string>
+    <string name="unattended">Doorstep Delivery</string>
+    <string name="attended">Attended Delivery</string>
+    <string name="attended_long">Attended Delivery (you must be present)</string>
+    <string name="no_delivery_time">" "<b>Please select a delivery time</b>" "</string>
+    <string name="subtotal_count">Subtotal (%d):</string>
+    <string name="detail_title">Product Details</string>
+    <string name="best_produce_title">Best Produce</string>
+    <string name="pp_title">Past Purchases</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="barcode_scan_cancelled">Barcode Search cancelled</string>
+    <string name="searching">Searching...</string>
+    <string name="delivery_time_title">Delivery Times</string>
+    <string name="no_unattended_slots">There are no doorstep delivery slots</string>
+    <string name="open">Open</string>
+    <string name="yours">Yours</string>
+    <string name="full">Full</string>
+    <string name="choose_slot_success">Successfully selected delivery slot</string>
+    <string name="settings_saved">Saved Settings</string>
+    <string name="order_details_title">Order Details</string>
+    <string name="conf_cancel">Are you sure you want to cancel this order?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancelling_order">Canceling order...</string>
+    <string name="cancelled_order">Your order has been canceled. Thank you</string>
+    <string name="order_back_in_cart">This order has been put back in your cart</string>
+    <string name="notice_title">Need anything else from AmazonFresh?</string>
+    <string name="notice_text">Please add any final items to your order by %s</string>
+    <string name="no_network_error">There is limited or no connectivity to your network. Please try again from a stronger signal area or wi-fi connection.</string>
+    <string name="generic_error">There was an error! Oh No!: %s</string>
+    <string name="qty_price">Qty: %1$s @ %2$s</string>
+    <string name="more">More</string>
+    <string name="less">Less</string>
+    <string name="remove">Remove</string>
+    <string name="success_more">Successfully added 1 to cart</string>
+    <string name="success_less">Successfully removed 1 from cart</string>
+    <string name="success_remove">Successfully removed item from cart</string>
+    <string name="added_to_cart">Added to cart (%1$d) %2$s</string>
+    <string name="min_qty">(minimum of %d)</string>
+    <string name="price">Price:</string>
+    <string name="unit_price">Unit Price:</string>
+    <string name="rating">Rating</string>
+    <string name="rating_count">%d ratings</string>
+    <string name="full_slot">%1$s between %2$s and %3$s (%4$s)</string>
+    <string name="short_slot">%1$s %2$s-%3$s</string>
+    <string name="unit_price_val">%1$s per %2$s</string>
+    <string name="unit_cost_val">%1$s / %2$s</string>
+    <string name="please_signin">Please sign in to continue</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="done">"I'm Done"</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="undo_edit">Cancel Editing Order</string>
+    <string name="success_clear">Successfully cleared cart</string>
+    <string name="success_undo">Successfully reverted order</string>
+    <string name="conf_clear">Are you sure you want to remove all items from your cart?</string>
+    <string name="conf_undo_edit">Are you sure you want to undo all changes to this order?</string>
+    <string name="select_slot_wait">Reserving delivery slot...</string>
+    <string name="adding1">Adding 1 to cart</string>
+    <string name="removing1">Removing 1 from cart</string>
+    <string name="removingAll">Removing all from cart</string>
+    <string name="addingQty">Adding %d to cart</string>
+    <string name="feedback_email">af-mobile-feedback@amazon.com</string>
+    <string name="feedback_subject">AmazonFresh Android App Feedback</string>
+    <string name="feedback_body">"Email: %3$s
+Version: %4$s
+Device: %1$s (OS %2$s)
+
+"</string>
+    <string name="quicklist_remove"><u>remove</u></string>
+    <string name="quicklist_double">%s is already on your quicklist</string>
+    <string name="quicklist_add_hint">Add item to Quicklist</string>
+    <string name="search_quicklist_done">View Cart</string>
+    <string name="search_quicklist_start" />
+    <string name="search_quicklist_next">%s ></string>
+    <string name="search_quicklist_prev">&lt; %s</string>
+    <string name="empty_quicklist">You have no items in your quicklist</string>
+    <string name="start_quicklist">Start search for all items below</string>
+    <string name="quicklist_or">Or search for items one at a time:</string>
+    <string name="quicklist_title">%1$s (%2$d of %3$d)</string>
+    <string name="freshness_guarantee">" "<a href="http://fresh.amazon.com/Category?cat=mobile_eula">Freshness Guarantee and legal information</a>" "</string>
+    <string name="quicklist_empty">"There are no items on your list.
+ Add items above to start your quicksearch,
+ e.g. milk, eggs, etc"</string>
+    <string name="start_list">Search for all items</string>
+    <string name="list_or">Or</string>
+    <string name="add_list_to_quicklist">Add all items to your Quicklist</string>
+    <string name="bad_list">"We're sorry we could not read the given list."</string>
+    <string name="receive_list_title">Imported List</string>
+    <string name="url_prefix">grocery://</string>
+    <string name="close_quickaction">Close</string>
+    <string name="similar_barcode">You may be interested in these items:</string>
+    <string name="no_barcode_found">Could not find item</string>
+    <string name="new_customer_button">Set up account using my Amazon.com settings ></string>
+    <string name="new_customer_title">New customer?</string>
+    <string name="new_customer_instructions">If you already have an account on Amazon.com, you can use all the address and payment information you already have stored with us.</string>
+    <string name="amazon_appstore_link">http://www.amazon.com/gp/mas/dl/android?p=com.demiroot.amazonfresh&amp;ref=mas_mba_apk&amp;dl=1</string>
+    <string name="android_market_link">market://details?id=com.demiroot.amazonfresh</string>
+    <string name="amazon_appstore">Rate this app in Amazon Appstore</string>
+    <string name="android_market">Rate this app in Android Market</string>
+    <string name="remind_later"><a href="">Remind me later</a></string>
+    <string name="do_not_remind"><a href="">"No, please don't remind me"</a></string>
+    <string name="missing_market">Unable to load Android Market</string>
+    <string name="abar_address_book">Address Book</string>
+    <string name="choose_address">Use this address ></string>
+    <string name="please_select_address">Please select an address for this order</string>
+    <string name="choose_address_from_site">If you do not see your address it might be undeliverable or missing a payment instrument. <a href="https://fresh.amazon.com/m/splashDelivery?mobileApp=android">Please go to our mobile site to update your address book.</a></string>
+    <string name="make_address_default">Apply this address to all future orders</string>
+    <string name="to">To:</string>
+    <string name="change_this"><u>change this</u></string>
+    <string name="updated_default_address">Successfully updated your default address</string>
+    <string name="saving_default_address_wait_msg">Updating default address...</string>
+</resources>

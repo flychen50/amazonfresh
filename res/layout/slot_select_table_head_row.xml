@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_horizontal" android:id="@id/slotSelectTextA" layout_column="1" style="@style/slotSelectTableTitle" />
+    <TextView android:gravity="center_horizontal" android:id="@id/slotSelectTextB" style="@style/slotSelectTableTitle" />
+    <TextView android:gravity="center_horizontal" android:id="@id/slotSelectTextC" style="@style/slotSelectTableTitle" />
+    <TextView android:gravity="center_horizontal" android:id="@id/slotSelectTextD" style="@style/slotSelectTableTitle" />
+</TableRow>

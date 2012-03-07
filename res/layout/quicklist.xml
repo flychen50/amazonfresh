@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_layout" />
+    <TableLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0">
+        <TableRow>
+            <EditText android:id="@id/quicklist_add_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:hint="@string/quicklist_add_hint" android:maxLines="1" />
+            <Button android:id="@id/quicklist_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add" android:onClick="onAddClick" />
+        </TableRow>
+    </TableLayout>
+    <Button android:textSize="@dimen/text_size_mediumish" android:textColor="#ff000000" android:gravity="center" android:paddingTop="0.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/start_quicklist" android:drawableLeft="@drawable/ic_btn_magglass" android:onClick="startQuicklist" />
+    <TextView android:textSize="@dimen/text_size_medium" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/quicklist_or" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#ffcccccc" android:dividerHeight="1.0dip" />
+        <TextView android:id="@android:id/empty" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/quicklist_empty" style="@style/emptyCart" />
+    </FrameLayout>
+</LinearLayout>

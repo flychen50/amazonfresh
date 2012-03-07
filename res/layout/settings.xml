@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/detail" android:background="@color/background2" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_settings" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_default_address" android:onClick="setDefaultAddress" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_default_payment" android:onClick="setDefaultPayment" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:paddingTop="6.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/will_open_browser_note" />
+    <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="16.0dip" />
+    <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/feature_settings" />
+    <CheckBox android:textColor="#ff000000" android:gravity="top" android:id="@id/settings_notifications" android:paddingLeft="44.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/notifications_opt" />
+    <CheckBox android:textColor="#ff000000" android:gravity="top" android:id="@id/settings_combine_pp" android:paddingLeft="44.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/combine_pp_opt" />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_settings" android:onClick="saveSettings" />
+</LinearLayout>

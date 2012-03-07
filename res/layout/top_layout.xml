@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/loading_bar_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.markupartist.android.widget.ActionBar android:id="@id/actionbar" style="@style/ActionBar" />
+    <LinearLayout android:gravity="right|center" android:orientation="horizontal" android:id="@id/loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/actionbar">
+        <TextView android:textColor="@color/loading_bar_textcolor" android:id="@id/top_load_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+        <ImageView android:id="@id/top_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_progspinner_gray" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="staticText" parent="@style/textRoot">
+        <item name="android:textSize">27.0sp</item>
+    </style>
+    <style name="gatewayTitle" parent="@style/textRoot">
+        <item name="android:textSize">30.0sp</item>
+    </style>
+    <style name="gatewayText" parent="@style/textRoot">
+        <item name="android:textSize">24.0sp</item>
+    </style>
+    <style name="itemTitleText" parent="@style/textRoot">
+        <item name="android:textSize">27.0sp</item>
+    </style>
+    <style name="itemPriceText" parent="@style/textRoot">
+        <item name="android:textSize">24.0sp</item>
+    </style>
+    <style name="moreInfoText" parent="@style/textRoot">
+        <item name="android:textSize">27.0sp</item>
+    </style>
+    <style name="itemRatingText" parent="@style/textRoot">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+    </style>
+    <style name="orderHeader" parent="@style/textRoot">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="orderHeaderTotal" parent="@style/textRoot">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="slotSelectTableText" parent="@style/textRoot">
+        <item name="android:textSize">24.0sp</item>
+    </style>
+    <style name="slotSelectTableTitle" parent="@style/textRoot">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="itemTitleText2" parent="@style/textRoot">
+        <item name="android:textSize">21.0sp</item>
+    </style>
+    <style name="cartQty" parent="@style/textRoot">
+        <item name="android:textSize">24.0sp</item>
+    </style>
+    <style name="itemPriceText2" parent="@style/textRoot">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:paddingRight">3.0sp</item>
+    </style>
+    <style name="cartRow" parent="@style/textRoot">
+        <item name="android:textSize">15.0sp</item>
+    </style>
+    <style name="detailHeader" parent="@style/textRoot">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff669900</item>
+        <item name="android:paddingRight">3.0sp</item>
+    </style>
+    <style name="detailContents" parent="@style/textRoot">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="emptyCart" parent="@style/textRoot">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="NoTitleBar" parent="@android:style/Theme.NoTitleBar" />
+</resources>
